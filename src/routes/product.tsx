@@ -4,8 +4,11 @@ import { Toaster } from "@/components/ui/sonner";
 import { ScrollProgress } from "@/components/matura/ScrollProgress";
 import { Gallery } from "@/components/matura/product/Gallery";
 import { BuyPanel, ProductNav, StickyBar, PRODUCT } from "@/components/matura/product/BuyPanel";
-import { Benefits, Facts, HowToUse, Warnings } from "@/components/matura/product/Sections";
-import { Footer } from "@/components/matura/Bottom";
+import { Benefits } from "@/components/matura/product/Benefits";
+import { Facts } from "@/components/matura/product/Facts";
+import { HowToUse } from "@/components/matura/product/HowToUse";
+import { Warnings } from "@/components/matura/product/Warnings";
+import { Footer } from "@/components/matura/Footer";
 
 const title = "MATURA C-Section Scar Recovery Sheets — 90-Day System";
 const description =

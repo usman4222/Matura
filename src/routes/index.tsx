@@ -2,24 +2,20 @@ import { createFileRoute } from "@tanstack/react-router";
 import { Toaster } from "@/components/ui/sonner";
 import { AnnouncementBar, Nav } from "@/components/matura/Nav";
 import { Hero } from "@/components/matura/Hero";
-import {
-  BrandStory,
-  Comparison,
-  Features,
-  HowItWorks,
-  InTheBox,
-  LifestyleBanner,
-  ProblemSolution,
-  Protocol,
-  TrustStrip,
-} from "@/components/matura/Sections";
-import {
-  EmailCapture,
-  Faq,
-  FinalBanner,
-  Footer,
-  Reviews,
-} from "@/components/matura/Bottom";
+import { TrustStrip } from "@/components/matura/TrustStrip";
+import { ProblemSolution } from "@/components/matura/ProblemSolution";
+import { Features } from "@/components/matura/Features";
+import { HowItWorks } from "@/components/matura/HowItWorks";
+import { Protocol } from "@/components/matura/Protocol";
+import { InTheBox } from "@/components/matura/InTheBox";
+import { LifestyleBanner } from "@/components/matura/LifestyleBanner";
+import { Comparison } from "@/components/matura/Comparison";
+import { BrandStory } from "@/components/matura/BrandStory";
+import { Reviews } from "@/components/matura/Reviews";
+import { Faq } from "@/components/matura/Faq";
+import { EmailCapture } from "@/components/matura/EmailCapture";
+import { FinalBanner } from "@/components/matura/FinalBanner";
+import { Footer } from "@/components/matura/Footer";
 import { ScrollProgress } from "@/components/matura/ScrollProgress";
 
 const title = "MATURA | C-Section Scar Recovery Sheets — 90-Day System";
